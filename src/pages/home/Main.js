@@ -1,8 +1,5 @@
-import React from 'react'
-// import moment from "moment";
-// import {CButton} from "@coreui/react";
-// import ApiConfig, {HttpMethod} from "../../dataManager/ApiConfig"
-// import {EndPoint} from "../../dataManager/ApiMapper"
+import React from 'react';
+import { Layout } from 'antd';
 
 const Main = () => {
   // const [expiredAt, setExpiredAt] = useState(window.localStorage.getItem('expiredAt'))
@@ -34,12 +31,14 @@ const Main = () => {
   return (
     <>
       <br />
-      {/*<CButton color="primary" onClick={() => extendJwtExpirationTime()}>
-      자동 로그인 만료 {moment.unix(expiredAt).format('YYYY-MM-DD HH:mm:ss')} 연장하기
-    </CButton>*/}
-      <br />
+      <Layout
+        style={{
+          minHeight: '100vh',
+        }}></Layout>
+      asfasf
+      <br />a
     </>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;
